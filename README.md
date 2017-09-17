@@ -34,6 +34,12 @@ So node after adding sigmoid:
 
 So instead of heaviside or step we use a sigmoid activation function which is real-valued and differentiable (you need this to find gradients). The sigmoid function squashes the weighted inputs and gives a value in range 0 to 1. Which can be used for binary classification if the value crosses a certain threshold say >0.5 for class 1 otherwise class 0.
 
+The inputs includes pixels from 3 color channels (RGB) which we reshape in one column vector for one sample (see main.py):
+
+![alt tag](https://static1.squarespace.com/static/54856bade4b0c4cdfb17e3c0/t/57edf15c9f74563967b893a2/1475211614805/)
+
+Just a dog image for your understanding  (See! I am not biased towards cats !)
+
 
 There is one more important component involved and it's called bias.
 
@@ -83,6 +89,8 @@ https://deeplearning4j.org/img/perceptron_node.png
 https://sebastianraschka.com/images/faq/logisticregr-neuralnet/sigmoid.png
 
 http://i2.wp.com/blog.hackerearth.com/wp-content/uploads/2017/01/Capture-15.png
+
+https://static1.squarespace.com/static/54856bade4b0c4cdfb17e3c0/t/57edf15c9f74563967b893a2/1475211614805/
 
 https://www.tutorialspoint.com/artificial_neural_network/images/perceptron.jpg
 
