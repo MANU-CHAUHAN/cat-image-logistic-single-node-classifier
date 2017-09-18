@@ -1,8 +1,8 @@
 # cat-image-logistic-single-node-classifier
 A single node logistic image classifier that classifies cat vs not cat images in python using logistic regression.
 
-NOTE: Will modify main.py file to include user given image for prediction in next update
-The accuracy is not too high as regularization parameters are not concerned. It's just a simple program with single neural node that classifies images.
+NOTE: Will modify main.py file to include user given image for prediction in next update.
+The accuracy is not too high as regularization parameters are not considered in this version. It's just a simple program with single neural node that classifies images.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
