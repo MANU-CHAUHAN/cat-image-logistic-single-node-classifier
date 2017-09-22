@@ -1,5 +1,5 @@
 # cat-image-logistic-single-node-classifier
-A single node logistic image classifier that classifies cat vs not cat images in python using logistic regression.
+A single node image classifier that classifies cat vs not cat images in python using logistic regression.
 
 NOTE: Will modify main.py file to include user given image for prediction in next update.
 The accuracy is not too high as regularization parameters are not considered in this version. It's just a simple program with single neural node that classifies images.
@@ -26,11 +26,6 @@ Here:
 
 ![alt tag](https://sebastianraschka.com/images/faq/logisticregr-neuralnet/sigmoid.png)
 
-
-So node after adding sigmoid:
-
-
-![alt tag](http://i2.wp.com/blog.hackerearth.com/wp-content/uploads/2017/01/Capture-15.png)
 
 So instead of heaviside or step we use a sigmoid activation function which is real-valued and differentiable (you need this to find gradients). The sigmoid function squashes the weighted inputs and gives a value in range 0 to 1. Which can be used for binary classification if the value crosses a certain threshold say >0.5 for class 1 otherwise class 0.
 
