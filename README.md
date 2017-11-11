@@ -1,4 +1,4 @@
-# cat-image-logistic-single-node-classifier
+# single node logistic classifier
 A single node image classifier that classifies cat vs not cat images in python using logistic regression.
 
 NOTE: Will modify main.py file to include user given image for prediction in next update.
