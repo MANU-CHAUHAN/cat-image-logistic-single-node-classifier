@@ -208,10 +208,10 @@ if __name__ == '__main__':
 
         print('\n Accuracy for test set : ', np.mean(prediction_test == test_set_y) * 100)
 
-    elif sys.argv[1].lower() == 'predict':
+    elif sys.argv[1].lower() == 'classify':
         if len(sys.argv) != 3:
             sys.exit('\n Wrong number of arguments for predict.'
-                     ' \n "Predict" option requires image path for prediction \n')
+                     ' \n "classify" option requires image path for classification \n')
 
         file = sys.argv[2]
 
@@ -241,4 +241,4 @@ if __name__ == '__main__':
             else:
                 print('\n Its NOT a cat image')    
     else:
-        sys.exit('\n Maybe wrong arguments or wrong number of arguments. \n Possible values :\n 1:train \n 2:test \n 3:predict (+ another argument for the image file)')
+        sys.exit('\n Maybe wrong arguments or wrong number of arguments. \n Possible values :\n 1:train \n 2:test \n 3:classify (requires another argument for the image file)')
