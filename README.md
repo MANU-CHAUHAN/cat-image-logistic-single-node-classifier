@@ -1,8 +1,15 @@
 # single node logistic classifier
 A single node image classifier that classifies cat vs not cat images in python using logistic regression.
 
-NOTE: Will modify main.py file to include user given image for prediction in next update.
-The accuracy is not too high as regularization parameters are not considered in this version. It's just a simple program with single neural node that classifies images.
+To run:
+
+Train: $python main.py train (Training process time depends upon number of iterations)
+Test: $python main.py test
+Predict: $python main.py predict path_to_image_file 
+(try from images provided in root directory not-cat:[1.jpg,2.jpg,3.jpg] cat:[cat1.jpg,cat2.jpg, cat3.jpg])
+
+NOTE:
+The accuracy is not too high (the model predicts one image of Elon Musk as a CAT and cat2.jpg as NOT-CAT and low test score)  because regularization parameters are not considered. It's just a simple program with single neural node that classifies images.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
